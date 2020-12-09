@@ -14,9 +14,12 @@
     </nav>
     <header>
         <p>It's a English to Minions Language Translator.</p>
+        <p>Uses API from funtranslations.com & API rate limit is of 5 calls per hour</p>
+
     </header>  
 
     <main>
+        <div>
         <textarea id="txt-input" placeholder="Enter your text in English here"></textarea>
         
         <button id="btn-translate">Translate</button>
@@ -24,12 +27,11 @@
         <div style= "font-size:larger;">Translated Text (in Minion's Language) 👇 </div>
         
         <textarea id="out-txt" placeholder="Your message in banana language will be here "></textarea>
+        </div>
     </main>
 
     <footer class="text-center">
-        <p>Uses API from funtranslations.com & API rate limit is 60 calls per day with distribution of 5 calls per hour</p>
-    
-        
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
     </footer>
     
     <script src="app.js" type="text/javascript">
